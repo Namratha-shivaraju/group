@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+.chat{
+    display: grid;
+    background-color: #ffffff;
+    height: 100vh;
+    margin-right: -22px;
+    margin-top:-22px ;
+    margin-left: -22px;
+}
+
