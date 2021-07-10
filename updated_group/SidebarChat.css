@@ -1,0 +1,37 @@
+.sidebarChat {
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+  align-items: center;
+  border-bottom: 3px solid #f6f6f6;
+}
+.sidebarChat:hover {
+  background-color: #e8edfd;
+}
+.sidebarChat__info > h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.sidebarChat__info > p {
+  color: gray;
+}
+.sidebarChat__info {
+  flex: 1;
+  margin-left: 15px;
+}
+.no_of_members {
+  display: flex;
+}
+.no_of_members > h6 {
+  padding: 5px;
+}
+.container {
+  margin: 10px;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: #324D9E;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}

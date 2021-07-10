@@ -1,0 +1,20 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: white;
+}
+.sidebar__header {
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  color: #324d9e;
+  border-right: 1px solid rgb(192, 192, 192);
+  position: sticky;
+}
+.sidebar__chats {
+  flex: 1;
+  border-radius: 5px;
+  overflow: scroll;
+  border-right: 1px solid rgb(192, 192, 192);
+}
